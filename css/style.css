@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(92, 182, 220), rgb(77, 131, 178), rgb(204, 132, 226));
+}
+
+/* Logo Styles */
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+}
+
+/* Heading Styles */
+h1 {
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1000px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: auto;
+    margin: auto;
+    margin-bottom: 30px;
+    height: 55vh;
+}
+
+/* Message Styles */
+.message {
+    background-color: rgb(237, 231, 231);
+    padding: 5px;
+    margin: 17px 13px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+}
+
+/* Float Styles */
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+/* Send Container Styles */
+#send-container {
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+}
+
+/* Message Input Styles */
+/* Message Input Styles */
+#messageInput {
+    width: 9%; /* Adjust the width as needed */
+    border: solid 2px black;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+/* Button Styles */
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    height: 30px;
+    margin: 0 5px;
+    border-radius: 5px;
+    width: 60px;
+    font-size: large;
+    font-weight: 500;
+}
